@@ -1,7 +1,7 @@
 # Classification-problem-using-the-Clean-California-Housing-Prices-dataset
 The problem consists of estimating the approximate location of housing blocks. The approximate location is called ocean_proximity which may have one of four possible values: NEAR BAY, 1H OCEAN, INLAND, and NEAR OCEAN.
     
-The features variables arabe prepocessed and normalised in range between [-1,1]. The target variable is oneHote encoded and the all dataset is shuffled and divided in three set: trainset, validset and testset. 
+The features variables are prepocessed and normalised in range between [-1,1]. The target variable is oneHote encoded and the all dataset is shuffled and divided in three set: trainset, validset and testset. 
 
 The architecture of the deep artificial neural network and some hyperparameters are tuned using Hyperas. Hyperas is a convenient when try to hupertune Keras models. it's a wrapper of the famous optimisation packge hyperopt.
 
